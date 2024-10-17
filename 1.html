@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-4.6.2-dist/css/bootstrap.css">
+    <script src="jquery-3.7.1.js"></script>
+    <script src="bootstrap-4.6.2-dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>Document</title>
+</head>
+
+<body>
+<br>
+<br>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <input type="text" class="ip1" >
+</body>
+
+<style>
+    /* .box{
+        height: 400px;
+        width:  400px;
+        background-color: wheat;
+        opacity:50%;
+        border-radius: 100%;
+        animation-name: don;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+        position: absolute;
+        top: 100px;
+        left: 100px;
+    } */
+    /* @keyframes don{
+       0%{
+        scale: 2;
+        
+    }
+    25%{
+        scale: 4;
+     }
+    50%{
+        height: 400px;
+        width: 400px;
+    }
+    75%{
+        height: 200px;
+        width: 200px;
+    }
+    100%{
+        height: 400px;
+        width: 400px;
+    } 
+    } */
+    .bb {
+        background-color: black;
+        height: 100px;
+        width: 100px;
+        /* transform: rotate(20deg); */
+
+    }
+
+    .bb:hover {
+        transform: rotateY(340deg);
+        transition: 0.5s;
+        background-color: red;
+    }
+
+    @media only screen and (max-width: 600px) {
+        body {
+            background-color: lightblue;
+        }
+    }
+</style>
+<script>
+
+
+
+ $(document).ready(function () {
+
+            $(".k1").each(function () {
+                $(this).mouseenter(function () {
+                    $(this).removeClass("mt-3")
+                    $(this).css("transition", "0.4s")
+
+
+
+                })
+                $(".k1").each(function () {
+
+                    $(this).mouseleave(function () {
+                        $(this).addClass("mt-3")
+
+
+                    })
+                })
+            })
+
+        })
+
+
+
+        
+        $(document).ready(function () {
+            $(".ip1").click(function(){
+                $("ip1").css("background","red")
+            })
+        })
+        
+
+                
+
+
+
+    $(document).ready(function () {
+        $(".iia").hide()
+        $(".rr1").mouseenter(function () {
+
+            $(".iia").show()
+        })
+
+        $(".rr1").mouseleave(function () {
+            $(".iia").hide()
+        })
+
+    }, 2000)
+
+
+var l =[1,2,3,4,5,6,7]
+document.write(l+"<br>")
+console.log(l)
+l.splice(l.length-1)
+document.write(l)
+
+
+</script>
+
+</html>
