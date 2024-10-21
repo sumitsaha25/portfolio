@@ -289,6 +289,7 @@ html{
         height: 120px; 
         border-radius: 10px;
         top: 20px;
+        display: block;
         
     }
 }
@@ -296,8 +297,8 @@ html{
 
 
 
-   @media only screen and (max-width: 425px) {
-      .iia {
+@media only screen and (max-width: 425px) {
+    .iia {
         height: 100px; 
         border-radius: 10px;
         bottom: 0px;
@@ -382,6 +383,7 @@ width: 40vw;
 
 .dk{
     height: 170px;
+    display: block;
 }
 
 
@@ -416,3 +418,6 @@ width: 40vw;
    /* .k1:hover{
     padding-bottom: 20px;
    } */
+    /* .o1,.o2,.o3,.o4{
+        display: none;
+    } */
