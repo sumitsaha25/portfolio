@@ -465,16 +465,10 @@ width: 40vw;
 
 
     
-    @keyframes bol1 {
     
 
-     
-        
-        
-    }
 
-
-    @keyframes bol1 {
+    /* @keyframes bol1 {
         0% {
             scale: 1;
         }
@@ -527,4 +521,4 @@ width: 40vw;
             scale: 1;
 
         }
-    }
+    } */
